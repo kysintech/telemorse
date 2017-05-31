@@ -10,7 +10,8 @@ MainUI::MainUI(QWidget *parent) :
     mpl = new QMediaPlayer(this);
     mpl->setMedia(QUrl("qrc:/youmeiyounameyishougehuirangnixiangqiwo.mp3"));
     mpl->setVolume(30);
-
+    Beep(tele_freq,1000);
+    Sleep(1000);
 
 }
 
