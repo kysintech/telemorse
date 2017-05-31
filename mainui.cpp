@@ -12,6 +12,7 @@ MainUI::MainUI(QWidget *parent) :
     mpl->setVolume(30);
     Beep(tele_freq,1000);
     Sleep(1000);
+    Beep(500,200);
 
 }
 
